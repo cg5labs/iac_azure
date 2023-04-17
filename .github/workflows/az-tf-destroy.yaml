@@ -128,4 +128,4 @@ jobs:
 
     # Terraform Apply
     - name: Terraform Destroy
-      run: terraform -chdir="${GITHUB_WORKSPACE}/templates" destroy -auto-approve tfplan
+      run: terraform -chdir="${GITHUB_WORKSPACE}/templates" destroy -auto-approve
