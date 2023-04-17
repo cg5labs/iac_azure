@@ -8,5 +8,5 @@ variable "password" {
 
 variable "location" { 
   default = "southeastasia" 
-  description "Azure Region"
+  description = "Azure Region"
 }
