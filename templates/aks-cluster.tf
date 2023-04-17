@@ -16,9 +16,9 @@ resource "azurerm_kubernetes_cluster" "default" {
   dns_prefix          = "${random_pet.prefix.id}-k8s"
 
   default_node_pool {
-    name            = "default"
-    node_count      = 2
-    vm_size         = "Standard_D2_v5"
+    name            = var.aks_np_name
+    node_count      = var.aks_np_vm_count
+    vm_size         = var.aks_np_vm_size
     os_disk_size_gb = 30
   }
 

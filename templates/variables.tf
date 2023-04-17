@@ -10,3 +10,16 @@ variable "location" {
   default     = "southeastasia"
   description = "Azure Region"
 }
+
+variable "aks_np_vm_size" {
+  default = "Standard_D2s_v3"
+}
+
+variable "aks_np_vm_count" {
+  default = "1"
+}
+
+variable "aks_np_name" {
+  default = "demo"
+}
+
