@@ -22,9 +22,8 @@ resource "azurerm_kubernetes_cluster" "default" {
     os_disk_size_gb = 30
   }
 
-  service_principal {
-    client_id     = var.appId
-    client_secret = var.password
+  identity {
+    type = "SystemAssigned"
   }
 
   role_based_access_control {
