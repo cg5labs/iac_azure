@@ -1,4 +1,4 @@
-name: AZ-TF-Plan-Apply
+name: AZ-TF-Destroy
 
 on:
 

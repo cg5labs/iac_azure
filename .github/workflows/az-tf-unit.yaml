@@ -1,4 +1,4 @@
-name: 'Terraform Unit Tests'
+name: AZ-TF-Unit_Tests
 
 on:
   # [ push ]
