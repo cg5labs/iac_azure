@@ -35,7 +35,7 @@ jobs:
       id: checkov
       uses: bridgecrewio/checkov-action@master
       with: 
-        directory: iac/azure
+        directory: templates
         framework: terraform
 
     # Debug
