@@ -3,10 +3,12 @@ name: AZ-TF-Plan-Apply
 on:
   push:
     branches:
-    - master
+    - main
   pull_request:
     branches:
-    - master
+    - main
+
+  workflow_dispatch:
 
 #Special permissions required for OIDC authentication
 permissions:
